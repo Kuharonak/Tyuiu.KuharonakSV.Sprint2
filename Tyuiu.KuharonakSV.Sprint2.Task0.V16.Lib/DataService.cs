@@ -14,7 +14,7 @@ namespace Tyuiu.KuharonakSV.Sprint2.Task0.V16.Lib
             res[4] = x <= y + 750;
             res[5] = x - 751 >= y;
 
-            return res;
+            return re;
         }
     }
 }
