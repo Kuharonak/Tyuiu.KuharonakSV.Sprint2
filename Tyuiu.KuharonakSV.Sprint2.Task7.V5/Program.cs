@@ -4,7 +4,7 @@ internal class Program
     private static void Main(string[] args)
     {
         DataService ds = new DataService();
-        Console.Title = "Спринт #1 | Выполнил: Кухаронак Сергей Витальевич | СМАРТБ-25-1";
+        Console.Title = "Спринт #2 | Выполнил: Кухаронак Сергей Витальевич | СМАРТБ-25-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #2                                                               *");
         Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
