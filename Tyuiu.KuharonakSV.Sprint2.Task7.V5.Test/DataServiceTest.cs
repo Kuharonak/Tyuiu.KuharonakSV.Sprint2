@@ -7,15 +7,13 @@ namespace Tyuiu.KuharonakSV.Sprint2.Task7.V5.Test
         [TestMethod]
         public void ValidCheckDotInShadedArea()
         {
+            
+
             DataService ds = new DataService();
-
-            double x = 0;
-            double y = 0.5;
-
-            bool res = ds.CheckDotInShadedArea(x, y);
-
+            double x = -0.4;
+            double y = 0.4;
             bool wait = true;
-
+            bool res = ds.CheckDotInShadedArea(x, y);
             Assert.AreEqual(wait, res);
         }
     }
